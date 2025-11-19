@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 1 - Portfolio R&T</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio R&T</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="missions1.html">Missions</a></li>
+                <li><a href="bilan.html">Bilan</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="mission-header">
+        <div class="container">
+            <h1>Configuration et Administration d'un Réseau d'Entreprise</h1>
+            <div class="mission-meta">
+                <span>📅 Période : Septembre - Novembre 2025</span>
+                <span>⏱️ Durée : 3 mois</span>
+                <span>🏢 Service : Infrastructure & Réseaux</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="mission-detail">
+        <div class="container">
+            <div class="section">
+                <h2>1. Contexte et Objectifs de la Mission</h2>
+                
+                <h3>Contexte de l'entreprise</h3>
+                <p>
+                    L'entreprise dispose d'un réseau informatique vieillissant nécessitant une modernisation 
+                    pour améliorer les performances et la sécurité. Le parc comporte 150 postes de travail 
+                    répartis sur 3 bâtiments, avec des équipements réseau obsolètes (switches de plus de 10 ans).
+                </p>
+
+                <h3>Enjeux et problématiques</h3>
+                <ul style="margin-left: 2rem;">
+                    <li><strong>Performance :</strong> Lenteurs réseau aux heures de pointe</li>
+                    <li><strong>Sécurité :</strong> Absence de segmentation VLAN et de filtrage avancé</li>
+                    <li><strong>Maintenance :</strong> Difficulté à diagnostiquer les pannes</li>
+                    <li><strong>Évolutivité :</strong> Infrastructure non préparée pour la croissance</li>
+                </ul>
+
+                <h3>Objectifs de la mission</h3>
+                <p>
+                    Ma mission consistait à participer à la modernisation de l'infrastructure réseau :
+                </p>
+                <ul style="margin-left: 2rem;">
+                    <li>Auditer l'infrastructure existante et identifier les points faibles</li>
+                    <li>Concevoir une nouvelle architecture réseau segmentée par VLAN</li>
+                    <li>Configurer les nouveaux équipements (switches et routeurs)</li>
+                    <li>Mettre en place un plan d'adressage IP cohérent</li>
+                    <li>Documenter la nouvelle infrastructure</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>2. Tâches Réalisées et Évolution</h2>
+
+                <h3>Phase 1 : Découverte et Audit (3 premières semaines)</h3>
+                <p>
+                    Accompagné de mon tuteur, j'ai découvert l'infrastructure existante :
+                </p>
+                <ul style="margin-left: 2rem;">
+                    <li>Inventaire complet des équipements réseau (switches, routeurs, AP WiFi)</li>
+                    <li>Cartographie du réseau existant avec outil de supervision</li>
+                    <li>Analyse des configurations actuelles</li>
+                    <li>Identification des problématiques récurrentes via tickets d'incident</li>
+                    <li>Réalisation de tests de performance sur différents segments</li>
+                </ul>
+
+                <h3>Phase 2 : Conception de la Nouvelle Architecture (4 semaines)</h3>
+                <p>
+                    Avec une autonomie croissante, j'ai participé à la conception :
+                </p>
+                <ul style="margin-left: 2rem;">
+                    <li>Proposition d'un découpage en 5 VLAN (Administration, Production, Invités, IoT, Serveurs)</li>
+                    <li>Conception du nouveau plan d'adressage IP</li>
+                    <li>Élaboration de schémas réseau avec Draw.io</li>
+                    <li>Rédaction de matrices de flux pour le firewall</li>
+                    <li>Validation des choix techniques avec mon tuteur et l'équipe</li>
+                </ul>
+
+                <h3>Phase 3 : Configuration et Mise en Œuvre (5 semaines)</h3>
+                <p>
+                    Déploiement progressif de la nouvelle infrastructure :
+                </p>
+                <ul style="margin-left: 2rem;">
+                    <li>Configuration des switches avec VLANs, trunking et agrégation de liens</li>
+                    <li>Mise en place du routage inter-VLAN</li>
+                    <li>Configuration du DHCP par VLAN</li>
+                    <li>Tests de connectivité et de performance</li>
+                    <li>Migration progressive des utilisateurs par service</li>
+                    <li>Documentation des configurations et procédures</li>
+                </ul>
+
+                <h3>Outils et Technologies Utilisés</h3>
+                <div class="trace-box">
+                    <p><strong>Matériel :</strong> Switches Cisco Catalyst série 3850, Routeur Cisco ISR 4000</p>
+                    <p><strong>Logiciels :</strong> PuTTY (CLI), TFTP Server, Draw.io, Wireshark, PRTG Network Monitor</p>
+                    <p><strong>Protocoles :</strong> VLANs (802.1Q), STP, LACP, OSPF, DHCP</p>
+                    <p><strong>Documentation :</strong> Confluence, Excel pour matrices, Visio pour schémas</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>3. Compétences et Apprentissages Critiques Mobilisés</h2>
+
+                <div class="ac-list">
+                    <h3>🎯 Compétence RT1 - Administrer les réseaux et l'Internet (Niveau 2)</h3>
+                    <ul>
+                        <li><strong>AC21.01</strong> - Configurer et dépanner le routage dynamique dans un réseau 
+                        (mise en place d'OSPF entre les différents sites)</li>
+                        <li><strong>AC21.02</strong> - Configurer et expliquer une politique simple de QoS et les 
+                        fonctions de base de la sécurité d'un réseau (segmentation VLAN, ACL basiques)</li>
+                        <li><strong>AC21.03</strong> - Déployer des postes clients et des solutions virtualisées 
+                        adaptées (configuration DHCP, tests de connectivité)</li>
+                        <li><strong>AC21.04</strong> - Déployer des services réseaux avancés (DHCP multi-VLAN, DNS interne)</li>
+                    </ul>
+                </div>
+
+                <div class="ac-list" style="margin-top: 1.5rem;">
+                    <h3>🎯 Compétence RT2 - Connecter les entreprises et les usagers (Niveau 2)</h3>
+                    <ul>
+                        <li><strong>AC22.03</strong> - Mettre en place une connexion multi-site via un réseau opérateur 
+                        (configuration VPN entre les bâtiments)</li>
+                        <li><strong>AC22.05</strong> - Capacité à questionner un cahier des charges R&T 
+                        (analyse critique des besoins et proposition d'améliorations)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>4. Traces et Preuves</h2>
+
+                <div class="trace-box">
+                    <h3>📄 Trace 1 : Schéma de l'Architecture Réseau</h3>
+                    <p>
+                        <strong>Description :</strong> Schéma complet de la nouvelle architecture avec les 5 VLAN, 
+                        le plan d'adressage et les interconnexions entre bâtiments.
+                    </p>
+                    <p>
+                        <strong>Justification :</strong> Ce document démontre ma capacité à concevoir une architecture 
+                        réseau cohérente et à la représenter de manière claire pour faciliter la maintenance future.
+                    </p>
+                    <p style="margin-top: 1rem; padding: 2rem; background: white; border: 2px dashed #667eea; text-align: center;">
+                        [Insérer ici une capture d'écran du schéma réseau ou un lien vers le document]
+                    </p>
+                </div>
+
+                <div class="trace-box" style="margin-top: 1.5rem;">
+                    <h3>📄 Trace 2 : Extrait de Configuration Switch</h3>
+                    <p>
+                        <strong>Description :</strong> Configuration d'un switch avec VLANs, trunking et sécurisation 
+                        des ports (port-security, DHCP snooping).
+                    </p>
+                    <p>
+                        <strong>Justification :</strong> Prouve ma maîtrise des commandes de configuration Cisco et 
+                        l'application des bonnes pratiques de sécurité réseau.
+                    </p>
+                    <pre style="background: #2d2d2d; color: #f8f8f2; padding: 1.5rem; border-radius: 5px; overflow-x: auto; margin-top: 1rem;">
+! Configuration VLAN
+vlan 10
+ name ADMIN
+vlan 20
+ name PRODUCTION
+vlan 30
+ name INVITES
+
+! Configuration Trunk
+interface GigabitEthernet1/0/1
+ description TRUNK_VERS_SWITCH2
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30
+
+! Configuration Port Accès
+interface GigabitEthernet1/0/10
+ description POSTE_ADMIN_01
+ switchport mode access
+ switchport access vlan 10
+ switchport port-security
+ spanning-tree portfast</pre>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>5. Analyse Réflexive et Autoévaluation</h2>
+
+                <div class="evaluation-grid">
+                    <div class="eval-card">
+                        <h4>✅ Points Forts</h4>
+                        <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                            <li>Bonne compréhension des concepts de segmentation réseau</li>
+                            <li>Capacité à produire une documentation claire et exploitable</li>
+                            <li>Rigueur dans les tests et la validation des configurations</li>
+                            <li>Communication efficace avec les équipes métier</li>
+                        </ul>
+                    </div>
+
+                    <div class="eval-card">
+                        <h4>📚 Apprentissages Clés</h4>
+                        <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                            <li>Maîtrise du CLI Cisco et des commandes de configuration avancées</li>
+                            <li>Compréhension des enjeux de sécurité dans la segmentation réseau</li>
+                            <li>Méthodologie de migration sans interruption de service</li>
+                            <li>Importance de la documentation en environnement de production</li>
+                        </ul>
+                    </div>
+
+                    <div class="eval-card">
+                        <h4>⚠️ Difficultés Rencontrées</h4>
+                        <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                            <li>Debugging complexe sur les boucles STP au départ</li>
+                            <li>Gestion de la pression lors de la migration en production</li>
+                            <li>Compréhension initiale du routage inter-VLAN</li>
+                        </ul>
+                    </div>
+
+                    <div class="eval-card">
+                        <h4>💡 Solutions Mises en Œuvre</h4>
+                        <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                            <li>Utilisation de Wireshark pour analyser les trames et identifier les problèmes STP</li>
+                            <li>Réalisation de la migration en heures creuses avec plan de rollback</li>
+                            <li>Approfondissement théorique en parallèle via ressources IUT et Cisco</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Autoévaluation du Niveau de Maîtrise</h3>
+                <p>
+                    À l'issue de cette mission, j'estime avoir atteint un <strong>niveau 2 (Administrer un réseau)</strong> 
+                    sur la compétence RT1. Je suis capable de concevoir, configurer et maintenir une infrastructure réseau 
+                    d'entreprise de taille moyenne, en appliquant les bonnes pratiques de segmentation et de sécurité.
+                </p>
+                <p style="margin-top: 1rem;">
+                    <strong>Points à améliorer :</strong> Je souhaite approfondir mes connaissances en routage dynamique 
+                    (BGP pour les interconnexions opérateur) et en haute disponibilité (HSRP/VRRP). Ces compétences seront 
+                    développées dans mes prochaines missions.
+                </p>
+
+                <h3 style="margin-top: 2rem;">Réutilisabilité dans d'Autres Contextes</h3>
+                <p>
+                    Les compétences développées lors de cette mission sont directement transférables à d'autres situations 
+                    professionnelles :
+                </p>
+                <ul style="margin-left: 2rem;">
+                    <li>Tout projet de refonte ou d'extension d'infrastructure réseau</li>
+                    <li>Mise en place de nouvelles architectures (campus, datacenter)</li>
+                    <li>Interventions de dépannage et d'optimisation réseau</li>
+                    <li>Projets de sécurisation et de segmentation</li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="index.html#missions" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+                    ← Retour aux Missions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025-2026 - Portfolio BUT Réseaux et Télécommunications</p>
+            <p>IUT Grand Ouest Normandie - Pôle Universitaire d'Alençon</p>
+        </div>
+    </footer>
+</body>
+</html>
