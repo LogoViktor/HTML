@@ -41,7 +41,7 @@
             <div class="section">
                 <h2>2. Tâches réalisées</h2>
 
-                <h3>Phase 1 : Lire le ticket et identifier le(s) problème(s)</h3>
+                <h3>Phase 1 : Lire le ticket (Voir trace 1) et identifier le(s) problème(s)</h3>
                 <ul style="margin-left: 2rem;">
                     <li>Inventaire des équipements client (Modèle Pabx, routeur)</li>
                     <li>Savoir ce que le client veut ou ce qui ne va pas</li>
@@ -71,40 +71,16 @@
                 <h2>4. Traces et Preuves</h2>
 
                 <div class="trace-box">
-                    <h3>📄 Trace 1 : Schéma de l'Architecture Réseau</h3>
-                    <p><strong>Description :</strong> Schéma complet de la nouvelle architecture avec les 5 VLAN, le plan d'adressage et les interconnexions entre bâtiments.</p>
-                    <p><strong>Justification :</strong> Ce document démontre ma capacité à concevoir une architecture réseau cohérente et à la représenter de manière claire pour faciliter la maintenance future.</p>
+                    <h3>📄 Trace 1 : Ticket OCEANE</h3>
+                    <p><strong>Description :</strong> </p>
+                    <p><strong>Justification :</strong> </p>
                     <p style="margin-top: 1rem; padding: 2rem; background: white; border: 2px dashed #667eea; text-align: center;">[Insérer ici une capture d'écran du schéma réseau ou un lien vers le document]</p>
                 </div>
 
                 <div class="trace-box" style="margin-top: 1.5rem;">
-                    <h3>📄 Trace 2 : Extrait de Configuration Switch</h3>
-                    <p><strong>Description :</strong> Configuration d'un switch avec VLANs, trunking et sécurisation des ports (port-security, DHCP snooping).</p>
-                    <p><strong>Justification :</strong> Prouve ma maîtrise des commandes de configuration Cisco et l'application des bonnes pratiques de sécurité réseau.</p>
-                    <pre style="background: #2d2d2d; color: #f8f8f2; padding: 1.5rem; border-radius: 5px; overflow-x: auto; margin-top: 1rem;">
-! Configuration VLAN
-vlan 10
- name ADMIN
-vlan 20
- name PRODUCTION
-vlan 30
- name INVITES
-
-! Configuration Trunk
-interface GigabitEthernet1/0/1
- description TRUNK_VERS_SWITCH2
- switchport mode trunk
- switchport trunk allowed vlan 10,20,30
-
-! Configuration Port Accès
-interface GigabitEthernet1/0/10
- description POSTE_ADMIN_01
- switchport mode access
- switchport access vlan 10
- switchport port-security
- spanning-tree portfast</pre>
-                </div>
-            </div>
+                    <h3>📄 Trace 2 : Extrait de retour sondage client</h3>
+                    <p><strong>Description :</strong> Retour de sondage de satifaction client sur le traitement du SAV</p>
+                    <p><strong>Justification :</strong> </p>
 
             <div class="section">
                 <h2>5. Analyse Réflexive et Autoévaluation</h2>
