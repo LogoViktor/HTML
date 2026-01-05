@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission - Portefeuille R&T</title>
+    <title>Mission - Portfolio R&T</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<corps>
+<body>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">Portfolio R&T</div>
@@ -23,9 +23,9 @@
         <div class="container">
             <h1>Configuration et/ou dépannage d'une installation téléphonique d'entreprise</h1>
             <div class="mission-meta">
-                <span>ðŸ“… Période : Septembre 2024 - Janvier 2026</span>
-                <span>â ±ï¸ Durée : 1 an et 4 mois</span>
-                <span>ðŸ ¢ Service : Infrastructures & Réseaux</span>
+                <span>📅 Période : Septembre 2024 - Janvier 2026</span>
+                <span>⏱️ Durée : 1 an et 4 mois</span>
+                <span>🏢 Service : Infrastructure & Réseaux</span>
             </div>
         </div>
     </header>
@@ -39,21 +39,21 @@
             </div>
 
             <div class="section">
-                <h2>2. Techniques réalisées</h2>
+                <h2>2. Tâches réalisées</h2>
 
                 <h3>Phase 1 : Lire le ticket et identifier le(s) problème(s)</h3>
                 <ul style="margin-left: 2rem;">
                     <li>Inventaire des équipements client (Modèle Pabx, routeur)</li>
                     <li>Savoir ce que le client veut ou ce qui ne va pas</li>
                     <li>Analyse des configurations actuelles</li>
-                    <li>Identification des problèmes récurrents via la configuration client ou via interrogations client</li>
+                    <li>Identification des problématiques récurrentes via la configuration client ou via interrogations client</li>
                 </ul>
 
                 <h3>Phase 2 : Dépannage client ou paramétrage client</h3>
-                <p>Si c'est du paramétrage, la réglementation de l'Arcep nous oblige à fabriquer au client via devis sa ou ses modifications.</p>
+                <p>Si c'est du paramétrage, la réglementation de l'Arcep nous oblige à facturer au client via devis sa ou ses modifications.</p>
                 <ul style="margin-left: 2rem;">
                     <li>Redémarrage de l'installation</li>
-                    <li>Vérification des paramètres du PABX qui peuvent causer des problèmes</li>
+                    <li>Vérification des paramètres du PABX qui peuvent causer problème</li>
                     <li>Paramétrage : Mise en place du fonctionnement voulu par le client (Message audio, SVI)</li>
                 </ul>
 
@@ -71,38 +71,38 @@
                 <h2>4. Traces et Preuves</h2>
 
                 <div class="trace-box">
-                    <h3>ðŸ“„ Trace 1 : Schéma de l'Architecture Réseau</h3>
+                    <h3>📄 Trace 1 : Schéma de l'Architecture Réseau</h3>
                     <p><strong>Description :</strong> Schéma complet de la nouvelle architecture avec les 5 VLAN, le plan d'adressage et les interconnexions entre bâtiments.</p>
-                    <p><strong>Justification :</strong> Ce document démontre ma capacité à concevoir une architecture réseau cohérente et à la représentation de manière claire pour faciliter la maintenance future.</p>
+                    <p><strong>Justification :</strong> Ce document démontre ma capacité à concevoir une architecture réseau cohérente et à la représenter de manière claire pour faciliter la maintenance future.</p>
                     <p style="margin-top: 1rem; padding: 2rem; background: white; border: 2px dashed #667eea; text-align: center;">[Insérer ici une capture d'écran du schéma réseau ou un lien vers le document]</p>
                 </div>
 
                 <div class="trace-box" style="margin-top: 1.5rem;">
-                    <h3>ðŸ“„ Trace 2 : Extrait de Configuration Switch</h3>
+                    <h3>📄 Trace 2 : Extrait de Configuration Switch</h3>
                     <p><strong>Description :</strong> Configuration d'un switch avec VLANs, trunking et sécurisation des ports (port-security, DHCP snooping).</p>
                     <p><strong>Justification :</strong> Prouve ma maîtrise des commandes de configuration Cisco et l'application des bonnes pratiques de sécurité réseau.</p>
                     <pre style="background: #2d2d2d; color: #f8f8f2; padding: 1.5rem; border-radius: 5px; overflow-x: auto; margin-top: 1rem;">
 ! Configuration VLAN
 vlan 10
- nom ADMIN
+ name ADMIN
 vlan 20
- nom PRODUCTION
+ name PRODUCTION
 vlan 30
- nom INVITATIONS
+ name INVITES
 
 ! Configuration Trunk
 interface GigabitEthernet1/0/1
  description TRUNK_VERS_SWITCH2
- mode trunk du port de commutation
- switchport trunk autorisé vlan 10,20,30
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30
 
-! Configuration Port AccÃ¨s
+! Configuration Port Accès
 interface GigabitEthernet1/0/10
  description POSTE_ADMIN_01
- accès au mode switchport
+ switchport mode access
  switchport access vlan 10
- switchport port-sécurité
- portfast-spanning-tree</pre>
+ switchport port-security
+ spanning-tree portfast</pre>
                 </div>
             </div>
 
@@ -111,7 +111,7 @@ interface GigabitEthernet1/0/10
 
                 <div class="evaluation-grid">
                     <div class="eval-card">
-                        <h4>âœ… Points Forts</h4>
+                        <h4>✅ Points Forts</h4>
                         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
                             <li>Bonne compréhension des concepts de segmentation réseau</li>
                             <li>Capacité à produire une documentation claire et exploitable</li>
@@ -121,7 +121,7 @@ interface GigabitEthernet1/0/10
                     </div>
 
                     <div class="eval-card">
-                        <h4>ðŸ“š Apprentissages Clés</h4>
+                        <h4>📚 Apprentissages Clés</h4>
                         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
                             <li>Maîtrise du CLI Cisco et des commandes de configuration avancées</li>
                             <li>Compréhension des enjeux de sécurité dans la segmentation réseau</li>
@@ -131,26 +131,26 @@ interface GigabitEthernet1/0/10
                     </div>
 
                     <div class="eval-card">
-                        <h4>âš ï¸ Difficultés Rencontrées</h4>
+                        <h4>⚠️ Difficultés Rencontrées</h4>
                         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-                            <li>Complexe de débogage sur les boucles STP au départ</li>
+                            <li>Debugging complexe sur les boucles STP au départ</li>
                             <li>Gestion de la pression lors de la migration en production</li>
                             <li>Compréhension initiale du routage inter-VLAN</li>
                         </ul>
                     </div>
 
                     <div class="eval-card">
-                        <h4>ðŸ'¡ Solutions Mises en Å'œuvre</h4>
+                        <h4>💡 Solutions Mises en Œuvre</h4>
                         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
                             <li>Utilisation de Wireshark pour analyser les trames et identifier les problèmes STP</li>
                             <li>Réalisation de la migration en heures creuses avec plan de rollback</li>
-                            <li>Approfondissement théorique en parallèle via les ressources IUT et Cisco</li>
+                            <li>Approfondissement théorique en parallèle via ressources IUT et Cisco</li>
                         </ul>
                     </div>
                 </div>
 
                 <h3 style="margin-top: 2rem;">Autoévaluation du Niveau de Maîtrise</h3>
-                <p>À l'issue de cette mission, j'estime avoir atteint un <strong>niveau 2 (Administrer un réseau)</strong> sur la compétence RT1. Je suis capable de concevoir, configurer et maintenir une infrastructure d'entreprise de taille moyenne, en appliquant les bonnes pratiques de segmentation et de sécurité.</p>
+                <p>À l'issue de cette mission, j'estime avoir atteint un <strong>niveau 2 (Administrer un réseau)</strong> sur la compétence RT1. Je suis capable de concevoir, configurer et maintenir une infrastructure réseau d'entreprise de taille moyenne, en appliquant les bonnes pratiques de segmentation et de sécurité.</p>
                 <p style="margin-top: 1rem;"><strong>Points à améliorer :</strong> Je souhaite approfondir mes connaissances en routage dynamique (BGP pour les interconnexions opérateur) et en haute disponibilité (HSRP/VRRP). Ces compétences seront développées dans mes prochaines missions.</p>
 
                 <h3 style="margin-top: 2rem;">Réutilisabilité dans d'Autres Contextes</h3>
@@ -164,14 +164,14 @@ interface GigabitEthernet1/0/10
             </div>
 
             <div style="text-align: center; margin-top: 3rem;">
-                <a href="index.html#missions" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">→ Retour aux missions</a>
+                <a href="index.html#missions" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">← Retour aux Missions</a>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copie; 2025-2026 - Portfolio MAIS Réseaux et Télécommunications</p>
+            <p>&copy; 2025-2026 - Portfolio BUT Réseaux et Télécommunications</p>
             <p>IUT Grand Ouest Normandie - Pôle Universitaire d'Alençon</p>
         </div>
     </footer>
