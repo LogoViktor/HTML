@@ -162,9 +162,15 @@ body {
     z-index: 1;
 }
 
-.hero h1 {
+.hero-text h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subtitle {
@@ -232,6 +238,14 @@ body {
     height: 4px;
     background: linear-gradient(90deg, var(--purple-start), var(--purple-end));
     border-radius: 2px;
+}
+
+.about-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 .about-portfolio > .container > p {
@@ -355,6 +369,11 @@ body {
 
 .mission-card:hover::before {
     transform: scaleX(1);
+}
+
+.mission-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .mission-card h3 {
